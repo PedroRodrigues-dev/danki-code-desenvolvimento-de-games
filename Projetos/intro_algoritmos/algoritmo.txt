@@ -1,0 +1,9 @@
+iniciar jogo(abriu a janela do jogo e posicionei o jogador para começar)
+jogador possui 10 de vida, possui 10 de munição
+10 inimigos nasceram no mapa
+inimigos persigam o jogador e tentem colidir com o mesmo
+setas para mover o jogador
+{
+colisao com o jogador e inimigo, jogador perde 1 de vida
+}
+se jogador ficar com zero, game over.

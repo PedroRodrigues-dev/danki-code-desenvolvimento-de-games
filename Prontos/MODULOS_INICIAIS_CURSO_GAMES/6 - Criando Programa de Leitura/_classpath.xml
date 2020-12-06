@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Explicacao/src"/>
+	<classpathentry kind="src" path="Jogo/src"/>
+	<classpathentry kind="output" path="Explicacao/out/production/6 - Criando Programa de Leitura"/>
+</classpath>

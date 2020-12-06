@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Atributos-Metodos-Construtor/src"/>
+	<classpathentry kind="src" path="Exercicio-para-Fixar-OO/src"/>
+	<classpathentry kind="src" path="Tipos-de-Classes/src"/>
+	<classpathentry kind="src" path="Tipos-de-Metodos/src"/>
+	<classpathentry kind="output" path="Atributos-Metodos-Construtor/out/production/Atributos-Metodos-Construtor"/>
+</classpath>

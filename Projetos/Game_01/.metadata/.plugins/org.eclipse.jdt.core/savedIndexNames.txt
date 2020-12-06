@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+D:\Users\pedro\Google Drive\Cursos\Danki-Code\Desenvolvimento de games\Projetos\Game_01\.metadata\.plugins\org.eclipse.jdt.core
+429693551.index
+2077344248.index
+1004358532.index
+2777613671.index
+565840480.index
+3140328784.index
+1701809608.index
+438500442.index

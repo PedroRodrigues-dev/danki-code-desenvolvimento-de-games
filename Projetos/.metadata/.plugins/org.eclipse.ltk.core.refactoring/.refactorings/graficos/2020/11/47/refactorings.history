@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;graficos/res/spritsheet.png&apos; to &apos;spritesheet.png&apos;" description="Rename resource &apos;spritsheet.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/spritsheet.png" name="spritesheet.png" stamp="1605463080383" updateReferences="true"/>
+</session>
