@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="/home/pedro/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.1.v20201027-0507/jre" stamp="1609022281275"/>
+    <entry loc="/usr/lib/jvm/java-15-oracle" stamp="1609389401407"/>
     <entry loc="C:\Program Files\Java\jdk-15.0.1" stamp="1605994582518"/>
+    <entry loc="/usr/java/oracle/jdk-15.0.1/bin" stamp="1608428452846"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1609029954314"/>
+    <entry loc="/usr/java/oracle/jdk-15.0.1" stamp="1608428454722"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk-amd64/bin" stamp="1609389893895"/>
+    <entry loc="/home/pedro/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.1.v20201027-0507" stamp="1609022281275"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk/jre" stamp="1611590264984"/>
 </dirs>
