@@ -35,7 +35,7 @@ public class World {
 					int pixelAtual = pixels[xx + (yy * map.getWidth())];
 					tiles[xx + (yy * WIDTH)] = new FloorTile(xx * 16, yy * 16, Tile.TILE_FLOOR);
 					if (pixelAtual == 0xFF000000) {
-						// Floor/Ch�o
+						// Floor
 						tiles[xx + (yy * WIDTH)] = new FloorTile(xx * 16, yy * 16, Tile.TILE_FLOOR);
 					} else if (pixelAtual == 0xFFFFFFFF) {
 						// Parede

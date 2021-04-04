@@ -33,7 +33,7 @@ public class Entity {
 
 	private BufferedImage sprite;
 
-	private int maskx, masky, mwidth, mheight;
+	public int maskx, masky, mwidth, mheight;
 
 	public Entity(int x, int y, int width, int height, BufferedImage sprite) {
 		this.x = x;
@@ -108,15 +108,15 @@ public class Entity {
 				Vector2i target = path.get(path.size() - 1).tile;
 				//xprev = x;
 				//yprev = y;
-				if(x < target.x * 16 && !isColidding(this.getX() + 1, this.getY())) {
+				if(x < target.x * 16) {
 					x++;
-				} else if(x > target.x * 16 && !isColidding(this.getX() - 1, this.getY())) {
+				} else if(x > target.x * 16) {
 					x--;
 				}
 				
-				if(y < target.y * 16 && !isColidding(this.getX(), this.getY() + 1)) {
+				if(y < target.y * 16) {
 					y++;
-				}else if(y > target.y * 16 && !isColidding(this.getX(), this.getY() - 1)) {
+				}else if(y > target.y * 16) {
 					y--;
 				}
 				

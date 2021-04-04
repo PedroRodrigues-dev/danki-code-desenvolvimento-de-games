@@ -9,13 +9,11 @@ import com.chrono_technology.main.Sound;
 import com.chrono_technology.world.AStar;
 import com.chrono_technology.world.Camera;
 import com.chrono_technology.world.Vector2i;
-import com.chrono_technology.world.World;
+
 
 public class Enemy extends Entity {
 
-	private double speed = 0.4;
-
-	private int maskx = 4, masky = 6, maskw = 10, maskh = 10;
+//	private double speed = 0.4;
 
 	private int frames = 0, maxFrames = 20, index = 0, maxIndex = 1;
 
@@ -123,7 +121,7 @@ public class Enemy extends Entity {
 	}
 
 	public boolean isColiddingWithPlayer() {
-		Rectangle enemyCurrent = new Rectangle(this.getX() + maskx, this.getY() + masky, maskw, maskh);
+		Rectangle enemyCurrent = new Rectangle(this.getX() + maskx, this.getY() + masky, mwidth, mheight);
 		Rectangle player = new Rectangle(Game.player.getX(), Game.player.getY(), 16, 16);
 
 		return enemyCurrent.intersects(player);
